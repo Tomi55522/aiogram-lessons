@@ -14,9 +14,9 @@ greet_kb2 = ReplyKeyboardMarkup(
     resize_keyboard=True, one_time_keyboard=True
 ).add(button_hi)
 
-button1 = KeyboardButton('1️⃣')
-button2 = KeyboardButton('2️⃣')
-button3 = KeyboardButton('3️⃣')
+button1 = KeyboardButton('обувь мужская ')
+button2 = KeyboardButton('обувь женская')
+button3 = KeyboardButton('доставка ')
 
 markup3 = ReplyKeyboardMarkup().add(
     button1).add(button2).add(button3)
@@ -29,9 +29,9 @@ markup5 = ReplyKeyboardMarkup().row(
     button1, button2, button3
 ).add(KeyboardButton('Средний ряд'))
 
-button4 = KeyboardButton('4️⃣')
-button5 = KeyboardButton('5️⃣')
-button6 = KeyboardButton('6️⃣')
+button4 = KeyboardButton('каталог одежды ')
+button5 = KeyboardButton('духи')
+button6 = KeyboardButton('подарки')
 markup5.row(button4, button5)
 markup5.insert(button6)
 
